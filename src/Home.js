@@ -16,12 +16,13 @@ export default function Home() {
         <Text h5 style={{ color: 'grey' }}>Treat others to coffee, virtually!</Text>
       </Page.Header>
       <Page.Content>
+        <Button shadow type="secondary" onClick={() => { window.location.href = 'https://form.jotform.com/213596847839072' }}>Order Now</Button>
+        <br/> <br/>
         <Text h5 height={7}>
           Goffee provides an easy way for you to send coffee deliveries to your peers and employees.<br/><br/>
           With a curated link and a code word formed by you, those you wish to send coffee to can customize their order receive a coffee, on the house! Well... on your house ;)
         </Text>
         <Image height='450px' src="https://images.unsplash.com/photo-1606509036992-4399d5c5afe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hhcmluZyUyMGNvZmZlZXxlbnwwfHwwfHw%3D&w=1000&q=80"/>
-        <Button shadow type="secondary" onClick={() => { window.location.href = 'https://form.jotform.com/213596847839072' }}>Order Now</Button>
       </Page.Content>
       <br/>
       <Page.Footer>
