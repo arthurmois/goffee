@@ -1,8 +1,6 @@
 import { Button, Image, Page } from "@geist-ui/react";
 import { Text } from "@geist-ui/react";
 
-import { useState, useContext } from "react";
-
 import useMediaQuery from "./useMediaQuery";
 
 
